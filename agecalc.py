@@ -50,3 +50,5 @@ image.thumbnail((300,300),Image.ANTIALIAS)
 photo=ImageTk.PhotoImage(image)
 label_image=tk.Label(image=photo)
 label_image.grid(column=1,row=0)
+
+window.mainloop()
